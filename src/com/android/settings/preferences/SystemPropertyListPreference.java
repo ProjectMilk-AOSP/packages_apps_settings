@@ -24,6 +24,8 @@ import android.util.AttributeSet;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
+import com.android.internal.util.rising.systemUtils;
+
 public class SystemPropertyListPreference extends ListPreference {
 
     private static final String PREFS_NAME = "system_property_store_";
