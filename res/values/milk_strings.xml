@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 Project Blaze
+<!-- Copyright (C) 2023 Project Milk
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,11 +22,11 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
     
-    <!-- Blaze version preference -->
-    <string name="blaze_version">Blaze version</string>
+    <!-- Milk version preference -->
+    <string name="milk_version">Milk version</string>
 
-    <!-- Blaze Maintainer -->
-    <string name="blaze_maintainer">Device Maintainer</string>
+    <!-- Milk Maintainer -->
+    <string name="milk_maintainer">Device Maintainer</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
