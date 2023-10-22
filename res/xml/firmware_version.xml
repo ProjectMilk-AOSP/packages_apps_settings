@@ -30,21 +30,21 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
     
-    <!-- Blaze Version  -->
+    <!-- Milk Version  -->
     <Preference
-        android:key="blaze_version"
-        android:title="@string/blaze_version"
+        android:key="milk_version"
+        android:title="@string/milk_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BlazeVersionPreferenceController"/>    
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MilkVersionPreferenceController"/>    
 
-    <!-- Blaze Maintainer  -->
+    <!-- Milk Maintainer  -->
     <Preference
-        android:key="blaze_maintainer"
-        android:title="@string/blaze_maintainer"
+        android:key="milk_maintainer"
+        android:title="@string/milk_maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BlazeMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.MilkMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
