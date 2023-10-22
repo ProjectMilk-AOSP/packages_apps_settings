@@ -25,10 +25,10 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class BlazeVersionPreferenceController extends BasePreferenceController {
+public class MilkVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "BlazeVersionPreferenceController";
-    private static final String ROM_PROPERTY = "org.blaze.version";
+    private static final String TAG = "MilkVersionPreferenceController";
+    private static final String ROM_PROPERTY = "org.milk.version";
 
     public BlazeVersionPreferenceController(Context context, String key) {
         super(context, key);
