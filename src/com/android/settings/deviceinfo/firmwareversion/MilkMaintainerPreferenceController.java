@@ -25,10 +25,10 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class BlazeMaintainerPreferenceController extends BasePreferenceController {
+public class MilkMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "BlazeMaintainerPreferenceController";
-    private static final String ROM_PROPERTY = "ro.blaze.maintainer";
+    private static final String TAG = "MilkMaintainerPreferenceController";
+    private static final String ROM_PROPERTY = "ro.milk.maintainer";
 
     public BlazeMaintainerPreferenceController(Context context, String key) {
         super(context, key);
