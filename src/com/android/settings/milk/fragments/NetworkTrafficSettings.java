@@ -1,4 +1,4 @@
-package com.android.settings.blaze.fragments;
+package com.android.settings.milk.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -29,8 +29,8 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.blaze.house.preferences.SystemSettingSwitchPreference;
-import com.blaze.house.preferences.SystemSettingSwitchPreference;
+import com.milk.home.preferences.SystemSettingSwitchPreference;
+import com.milk.home.preferences.SystemSettingSwitchPreference;
 
 @SearchIndexable
 public class NetworkTrafficSettings extends SettingsPreferenceFragment implements
@@ -82,7 +82,7 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment implement
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.BLAZE_HOUSE;
+        return MetricsEvent.MILK_HOME;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
